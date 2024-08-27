@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Photon.Pun;
 
-public class UIManager : MonoBehaviour
+public class UIManager : MonoBehaviourPun
 {
     #region Singleton
     public static UIManager instance;
@@ -19,6 +20,11 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject gameOverWindow;
 
     public void UpdateScoreText()
+    {
+        photonView.RPC("", RpcTarget.All);
+    }
+    [PunRPC]
+    public void UpdateScoreTextRPC()
     {
         scoreText.text = GameManager.instance.Score.ToString();
     }

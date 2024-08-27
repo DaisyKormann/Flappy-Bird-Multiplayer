@@ -491,7 +491,11 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents: []
+<<<<<<< Updated upstream
   sceneViewId: 2
+=======
+  sceneViewId: 1
+>>>>>>> Stashed changes
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!1 &519420028
@@ -1251,7 +1255,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 45.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

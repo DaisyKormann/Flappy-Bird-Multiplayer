@@ -25,10 +25,13 @@ public class GameManager : MonoBehaviourPun
 
     Vector2 screenBounds;
     int score;
+    int playersInGame = 0;
+    const string playerPrefabPath = "Prefabs/Player";
 
     public Vector2 ScreenBounds { get => screenBounds; }
     public int Score { get => score; set => score = value; }
 
+<<<<<<< Updated upstream
     const string playerPrefabPath = "Prefabs/Player";
     int playersInGame = 0;
 
@@ -40,6 +43,11 @@ public class GameManager : MonoBehaviourPun
     private void CreatePlayer()
     {
         Player player = NetworkManager.instance.Instantiate(playerPrefabPath, new Vector3(-5,0), Quaternion.identity).GetComponent<Player>();
+=======
+    private void CreatePlayer()
+    {
+        Player player = NetworkManager.instance.Instantiate(playerPrefabPath, new Vector3(-5, 0), Quaternion.identity).GetComponent<Player>();
+>>>>>>> Stashed changes
         player.photonView.RPC("Initialize", RpcTarget.All);
     }
 
@@ -52,6 +60,7 @@ public class GameManager : MonoBehaviourPun
             CreatePlayer();
         }
     }
+<<<<<<< Updated upstream
 
     [PunRPC]
     public void SetScore(int value)
@@ -59,4 +68,6 @@ public class GameManager : MonoBehaviourPun
         score += value;
         UIManager.instance.UpdateScoreText();
     }
+=======
+>>>>>>> Stashed changes
 }

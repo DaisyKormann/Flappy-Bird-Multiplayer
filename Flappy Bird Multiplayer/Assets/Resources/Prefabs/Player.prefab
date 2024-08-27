@@ -13,8 +13,12 @@ GameObject:
   - component: {fileID: 5858304411655147586}
   - component: {fileID: 1726879027165168766}
   - component: {fileID: 6790500064586102097}
+<<<<<<< Updated upstream:Flappy Bird Multiplayer/Assets/Resources/Prefabs/Player.prefab
   - component: {fileID: 9212652947230836670}
   - component: {fileID: -1697781980491420727}
+=======
+  - component: {fileID: 5267705540167450024}
+>>>>>>> Stashed changes:Flappy Bird Multiplayer/Assets/Prefabs/Player.prefab
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -163,7 +167,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5ce1983c386b634980cefaf58ef8ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream:Flappy Bird Multiplayer/Assets/Resources/Prefabs/Player.prefab
 --- !u!114 &9212652947230836670
+=======
+--- !u!114 &5267705540167450024
+>>>>>>> Stashed changes:Flappy Bird Multiplayer/Assets/Prefabs/Player.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -178,6 +186,7 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
+<<<<<<< Updated upstream:Flappy Bird Multiplayer/Assets/Resources/Prefabs/Player.prefab
   Synchronization: 1
   OwnershipTransfer: 0
   observableSearch: 2
@@ -202,3 +211,12 @@ MonoBehaviour:
   m_SynchronizeRotation: 0
   m_SynchronizeScale: 0
   m_UseLocal: 1
+=======
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+>>>>>>> Stashed changes:Flappy Bird Multiplayer/Assets/Prefabs/Player.prefab

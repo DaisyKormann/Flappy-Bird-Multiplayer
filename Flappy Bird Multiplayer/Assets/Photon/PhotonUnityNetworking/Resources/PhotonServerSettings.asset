@@ -34,14 +34,23 @@ MonoBehaviour:
   RunInBackground: 1
   StartInOfflineMode: 0
   RpcList:
+<<<<<<< Updated upstream
   - AddPlayer
+=======
+>>>>>>> Stashed changes
   - ClickRpc
   - DestroyRpc
   - DestroySpaceship
   - Fire
+<<<<<<< Updated upstream
   - Initialize
   - LoadSceneRPC
   - RespawnSpaceship
+=======
+  - LoadSceneRPC
+  - RespawnSpaceship
+  - UpdateScoreTextRPC
+>>>>>>> Stashed changes
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

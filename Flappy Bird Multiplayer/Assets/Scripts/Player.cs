@@ -8,6 +8,7 @@ public class Player : MonoBehaviourPun
     const float jumpForce = 8;
     Rigidbody2D rigidbody2D;
 
+<<<<<<< Updated upstream
     bool controllerOn = true;
     
     int lifes = 10;
@@ -24,6 +25,11 @@ public class Player : MonoBehaviourPun
     }
 
     private void Awake()
+=======
+    bool controllerOn;
+
+    private void Start()
+>>>>>>> Stashed changes
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
     }
@@ -37,6 +43,15 @@ public class Player : MonoBehaviourPun
             color.a = 0.1f;
             GetComponent<SpriteRenderer>().color = color;
             rigidbody2D.isKinematic = true;
+            controllerOn = false;
+        }
+    }
+
+    [PunRPC]
+    private void Initialize()
+    {
+        if (!photonView.IsMine)
+        {
             controllerOn = false;
         }
     }

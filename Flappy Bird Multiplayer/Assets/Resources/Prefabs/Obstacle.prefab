@@ -141,7 +141,11 @@ GameObject:
   - component: {fileID: 465442757019511052}
   - component: {fileID: -4835934836843005899}
   - component: {fileID: 2192810890820116609}
+<<<<<<< Updated upstream:Flappy Bird Multiplayer/Assets/Resources/Prefabs/Obstacle.prefab
   - component: {fileID: -260156580784437222}
+=======
+  - component: {fileID: 6971553104076012597}
+>>>>>>> Stashed changes:Flappy Bird Multiplayer/Assets/Prefabs/Obstacle.prefab
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -206,7 +210,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+<<<<<<< Updated upstream:Flappy Bird Multiplayer/Assets/Resources/Prefabs/Obstacle.prefab
 --- !u!114 &-260156580784437222
+=======
+--- !u!114 &6971553104076012597
+>>>>>>> Stashed changes:Flappy Bird Multiplayer/Assets/Prefabs/Obstacle.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
